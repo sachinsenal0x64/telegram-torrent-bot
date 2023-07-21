@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "repl_nix_TELEGRAM-TORRENT-BOT-1"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.1"
+fastapi = "^0.100.0"
+objprint = "^0.2.2"
+uvicorn = "^0.22.0"
+python-dotenv = "^1.0.0"
+rich = "^13.4.2"
+fs = "^2.4.16"
+hupper = "^1.12"
+requests = "^2.31.0"
+telebot = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
